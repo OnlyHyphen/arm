@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Duck']
+
+roboflow:
+  workspace: combs
+  project: my-first-project-k09ve
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/combs/my-first-project-k09ve/dataset/2
